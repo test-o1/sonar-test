@@ -17,7 +17,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 
-
+var i = 0;
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller}/{action=Index}/{id?}");
